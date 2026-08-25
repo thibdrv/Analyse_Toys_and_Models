@@ -46,5 +46,12 @@ Supply Chain :
 - Late Delivery Rate: Identify supply chain bottlenecks and improve overall delivery performance.
 
 ### TOOLS :
-- programming languages : Python, SQL
-- Power bi
+Programming Languages :
+- Python : Data cleaning, manipulation, and exploratory data analysis (pandas, numpy, matplotlib, seaborn).
+- SQL : Data querying, extraction, and aggregation.
+
+Business Intelligence & Visualization :
+- Power BI: Interactive dashboard design, data modeling (DAX), and key business metrics reporting.
+
+Environment & Workflow :
+- Google Colab / Jupyter Notebook: Development environment for data cleaning scripts and EDA.

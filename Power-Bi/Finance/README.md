@@ -4,17 +4,11 @@
 
 The model does not follow a **star schema** which is the recommended standard for Power BI and instead retains a structure close to the original relational database.
 
-**Technical Impact :**
+**Technical Impact :** While functional, this approach increases the complexity of writing DAX formulas and manipulating data.
 
-While functional, this approach increases the complexity of writing DAX formulas and manipulating data.
+**Justification :** The main advantage lies in the initial setup phase keeping the source structure avoids designing heavy ETL transformations (via SQL or Power Query) prior to importing.
 
-**Justification :**
-
-The main advantage lies in the initial setup phase keeping the source structure avoids designing heavy ETL transformations (via SQL or Power Query) prior to importing.
-
-**Limitations :**
-
-Conversely, this choice can affect aggregation performance and increase model complexity as future enhancements are made.
+**Limitations :** Conversely, this choice can affect aggregation performance and increase model complexity as future enhancements are made.
 
 ---
 
